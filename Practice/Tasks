@@ -1,0 +1,33 @@
+Task: 
+	Docker pull images - 
+	Doker images list - 
+	Docker remove images
+	pull images same one with different version
+	Docker run container
+		- run same 
+	Docker stop container
+	Docker restart
+	Docker naming / renaming
+	Docker port mapping
+	Docker run in detact mode
+	docker logs check
+	docker exec commands
+
+project
+	- Js and Nodejs
+	- mongodb container 
+		- mongodb
+		- mongo express
+
+steps
+- pull mongodb image
+- pull mongodb-express image
+- check network list
+- create one network for mongo-network(mongodb-mongo-express)
+- run container mongodb with port 27017 with network
+	- need to some env variables see pull images docs
+- run container mongo-express with port 8081 with network
+	- need to some env variables see pull images docs
+- check logs of mongo-express make sure connection
+- IP_addr:8081 
+- create database with name "user-account"
